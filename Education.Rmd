@@ -1,0 +1,57 @@
+---
+title: "Education"
+output:
+  html_document:
+    toc: false
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+
+
+```{r cuny, echo=FALSE,  out.width = '15%', out.extra='style="float:right; padding:10px"', fig.align = 'right'}
+
+knitr::include_graphics("imageS/cunylogo.png")
+
+```
+
+#
+#
+#
+
+### **2016-2021  Doctor of Philosophy, Department of Psychology**	
+### **2016-2019	Masters of Philosophy, Department of Psychology**
+### **2016-2019	Masters of Arts, Department of Psychology**
+
+#### Training Area: Developmental Psychology
+
+#### Dissertation title: An interdisciplinary investigation of infant sleep: How we study it, what it means for other areas of development, and where methodological creativity can take us.
+
+#### Advisor: Sarah Berger, Ph.D.  
+
+
+
+```{r MUseal, echo=FALSE,  out.width = '25%', out.extra='style="float:right; padding:10px"', fig.align = 'right'}
+
+knitr::include_graphics("imageS/MUseal.png")
+```
+
+#
+#
+#
+### **2009- 2013		Bachelor of the Arts, Department of Psychology **
+
+#### Honors College, Summa Cum Laude
+
+#### Major: Psychology          Minor: Anthropology 
+
+#### Thesis Title: The allocation of preferred and non-preferred rewards among collaborating children
+
+#### Advisor: Karena Rush, Ph.D.
+
+
+
+

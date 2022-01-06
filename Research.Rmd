@@ -1,0 +1,137 @@
+---
+title: "Research"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 2
+    #code_folding: hide
+---
+
+
+## Motor experience and body representations 
+
+#### Infant research
+
+```{r bbeeg, echo=FALSE,  out.width = '30%', out.extra='style="float:right; padding:10px"', fig.align = 'right'}
+
+knitr::include_graphics("images/bbeeg.png")
+
+```
+
+A project through the Developmental Science Lab at Temple University is currently studying how infants learn to reach and grasp for a pencil from 6 to 14-months. We use a customized software (TrHandy, Ab.Acus) to code videos submitted by parents and can extract the kinematic properties of the reach and grasp. Of particular interest is the emergence of the mature pincer grasp. At 14-months, infants come to the lab and participate in a tactile oddball paradigm stimulating their fingertips while undergoing EEG. Of particular interest is a neural signature (somatosensory mismatch negativity - sMMN) in the frontocentral regions. We hypothesize that functional differences in the way infants use their pinky and middle fingers to grasp will relate to neural body representations, manifesting as greater sMMN in response to a tactile stimulation of the middle finger versus the pinky finger. 
+
+
+For more information - https://sites.temple.edu/devscilab/babygrasp/ 
+
+
+#### Adult research 
+A complimentary project with older participants also uses the tactile oddball paradigm and sMMN.Here, we hypothesize that neural plasticity persists into adulthood and motor experience can change the neural representation of digits. Undergraduates participate in a typing test, a traditional measure of finger independence, and complete questions about video game and music experience. We expect that more experience using individual fingers and greater finger independence will lead to  greater sMMN in response to a tactile stimulation of the middle finger versus the pinky finger. 
+
+
+## Cognitive and motor development and sleep
+
+#### The impact of motor experience on exploration and problem solving
+
+
+
+#### Learning to Solve a Novel Locomotor Problem in Infancy: Does Sleep Play a Role?**
+
+#### Longitudinal assessment of sleep and motor milestone acquisition.
+
+By using Nanit video baby monitors and parent reported motor skill diaries, we get a prospective glimpse into infants' sleep around the acquisition of new motor skills.  
+
+
+```{r isdp20, echo=FALSE,  out.width = '60%', out.extra='style="float:right; padding:10px"'}
+
+knitr::include_graphics("images/twitterposter.gif")
+```
+
+In one investigation, Nanit provided nightly sleep summaries statistics including number of wake episodes, sleep efficiency, total sleep time, and sleep onset latency. We looked for patterns in the nights immediately before and after the acquisition of sitting, pulling to stand, hands-and-knees crawling, cruising, and walking. 
+
+In a second study, complete nights of video were state scored into REM, NREM, indeterminate sleep, and wake. We focused on the nights before, of, and after the onset of sitting, crawling, and walking.
+
+#
+#
+#
+#
+
+**Parental Expectations and Infants' Sleep during COVID-19**
+
+  We are using a survey and still accepting responses!
+  https://gccuny.az1.qualtrics.com/jfe/form/SV_1Mknip2xlCEntjv 
+
+
+ 
+
+**Supported vs Unsupported Sitters and Focused Attention**
+
+  Parents and their babies participate entirely on Zoom. We're interested in what we can learn about movement and cognition while your baby sits and plays with toys from your house. 
+
+
+**Novel Methodological Techniques for Coding Sleep States in Infancy**
+
+  I developed a technique using wireless cardiorespiratory sensors and an actigraph to code infant sleep states. The procedure is easy enough for parents to incorporate into their usual bedtime routines. Parents and babies become part of the research team! 
+
+
+```{r babysci, echo=FALSE,  out.width = '40%', fig.align = 'center'}
+
+knitr::include_graphics("images/babysci.jpg")
+```
+
+
+
+
+
+## Completed research projects 
+
+
+
+**The Relation Between Physical Space and Young Children’s Play: A Cross-Cultural Examination**
+
+
+## Recent conference presentations
+
+
+
+
+
+
+
+```{r icis, echo=FALSE,  out.width = '60%'}
+
+knitr::include_graphics("images/prepforlearn.png")
+```
+
+
+
+```{r sleep, echo=FALSE,  out.width = '60%'}
+
+knitr::include_graphics("images/SLEEP.png")
+```
+
+
+
+
+```{r icis20, echo=FALSE,  out.width = '60%'}
+
+knitr::include_graphics("images/icis20.png")
+```
+
+
+
+
+
+
+
+```{r psm19, echo=FALSE,  out.width = '60%'}
+
+knitr::include_graphics("images/psm19.png")
+```
+
+
+
+
+
