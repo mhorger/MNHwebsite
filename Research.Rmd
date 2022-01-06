@@ -73,6 +73,23 @@ downloadthis::download_link(
 #
 #
 #
+#### *Motor development in context* 
+
+The study of motor development has traditionally focused on the timing and sequence of the acquisition of motor skills, such as sitting, crawling, or walking, over the first years of life. Because motor skills are directly observable, motor development serves as a useful exemplar for general principles of development. Current frameworks emphasize motor development in and as a context, such as how change in motor skill interacts with simultaneous change in other developmental domains, how the acquisition of new motor skills creates new opportunities for learning, and how the context in which motor development occurs shapes the course of development. For example, the onset of new motor skills changes the allocation of attentional resources, the quality of infants’ sleep, and available perceptual information. Reciprocally, contexts such as culturally specific parenting practices and individual differences in everyday experiences impact the timing and trajectory of new motor skills.
+
+```{r, echo=FALSE}
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/a4ead575b0eb2c2d613bff9630a140fde15c5e1f/articles/Berger,%20Horger,%20DeMasi,%20&%20Karasik%20(2021)%20Motor%20development%20in%20context.pdff",
+  button_label = "Download pdf file",
+  button_type = "warning",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+#
+#
+#
 
 #### *The impact of motor experience on exploration and problem solving*
 
@@ -94,7 +111,7 @@ resources, in turn, impacted
 downloadthis::download_link(
   link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/Horger%20&%20Berger%20(2019)%20The%20role%20of%20walking%20experience%20on%20whole%20body%20exploration%20and%20problem%20solving.pdf",
   button_label = "Download pdf file",
-  button_type = "warning",
+  button_type = "success",
   has_icon = TRUE,
   icon = "fa fa-save",
   self_contained = FALSE
@@ -124,7 +141,7 @@ regular consolidation with intermittent periods of sleep to prevent interference
 downloadthis::download_link(
   link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/DeMasi%20et%20al%20(2021)%20Nap%20timing%20makes%20a%20difference.pdf",
   button_label = "Download pdf file",
-  button_type = "success",
+  button_type = "primary",
   has_icon = TRUE,
   icon = "fa fa-save",
   self_contained = FALSE
@@ -148,6 +165,7 @@ In one investigation, Nanit provided nightly sleep summaries statistics includin
 
 In a second study, complete nights of video were state scored into REM, NREM, indeterminate sleep, and wake. We focused on the nights before, of, and after the onset of sitting, crawling, and walking.
 
+
 #
 #
 #
@@ -158,7 +176,7 @@ knitr::include_graphics("images/babysci.jpg")
 ```
 
 
-## Sleep in context 
+## Methods for studying sleep
 
 #### New in-home methods for studying sleep states in infancy 
 
