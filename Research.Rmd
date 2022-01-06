@@ -1,19 +1,17 @@
 ---
-title: "Research"
+title: "Research and publications"
 output:
   html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
+    toc: false
+    toc_float: false
+    collapsed: true
     number_sections: false
     toc_depth: 2
     #code_folding: hide
 ---
-
-
 ## Motor experience and body representations 
 
-#### Infant research
+#### *The development of grasping and later neural representation of fingers* 
 
 ```{r bbeeg, echo=FALSE,  out.width = '30%', out.extra='style="float:right; padding:10px"', fig.align = 'right'}
 
@@ -26,28 +24,125 @@ A project through the Developmental Science Lab at Temple University is currentl
 
 For more information - https://sites.temple.edu/devscilab/babygrasp/ 
 
+#
+#
+# 
 
-#### Adult research 
+#### *Motor experience and neural plasticity in finger representations* 
+
 A complimentary project with older participants also uses the tactile oddball paradigm and sMMN.Here, we hypothesize that neural plasticity persists into adulthood and motor experience can change the neural representation of digits. Undergraduates participate in a typing test, a traditional measure of finger independence, and complete questions about video game and music experience. We expect that more experience using individual fingers and greater finger independence will lead to  greater sMMN in response to a tactile stimulation of the middle finger versus the pinky finger. 
 
+#
+#
+#
+#
+```{r fig3, echo=FALSE,  out.width = '40%', out.extra='style="float:right; padding:10px"', fig.align = 'right'}
+
+knitr::include_graphics("images/fig3.png")
+
+```
 
 ## Cognitive and motor development and sleep
 
-#### The impact of motor experience on exploration and problem solving
+#### *Cognition-action tradeoffs and the organization of attention* 
 
+This chapter discusses what cognition–action trade-offs in infancy reveal about the
+organization and developmental trajectory of attention. We focus on internal attention
+because this aspect is most relevant to the immediate concerns of infancy, such as fluctuating
+levels of expertise, balancing multiple taxing skills simultaneously, learning how
+to control attention under variable conditions, and coordinating distinct psychological
+domains. Cognition–action trade-offs observed across the life span include perseveration
+during skill emergence, errors and inefficient strategies during decision making, and
+the allocation of resources when attention is taxed. An embodied cognitive-load
+account interprets these behavioral patterns as a result of limited attentional resources
+allocated across simultaneous, taxing task demands. For populations where motor
+errors could be costly, like infants and the elderly, attention is typically devoted to motor
+demands with errors occurring in the cognitive domain. In contrast, healthy young
+adults tend to preserve their cognitive performance by modifying their actions.
 
+```{r, echo=FALSE}
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/Berger,%20Harbourne,%20&%20Horger%202018.pdf",
+  button_label = "Download pdf file",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+#
+#
+#
 
-#### Learning to Solve a Novel Locomotor Problem in Infancy: Does Sleep Play a Role?**
+#### *The impact of motor experience on exploration and problem solving*
 
-#### Longitudinal assessment of sleep and motor milestone acquisition.
+One hundred and six infants with varied independent walking experience faced the problem of
+navigating a tunnel to reach a caregiver. Solving the task required infants to switch from standing
+to crawling so they could fit their bodies into the tunnel. Spontaneous exploratory behaviors were
+documented. Infants who did not immediately go through the tunnel received a strict 15-step
+training protocol to highlight relevant details of the task. Age and walk experience were entered
+as predictors into a series of stepwise regressions on measures of exploratory and problem-solving
+behaviors. In general, older infants were more successful than younger infants in completing the
+task. A significant nonlinear relationship was documented between walk experience and some
+outcome measures. Infants with a moderate amount of walk experience had more difficulty than
+those with very little or a lot. Microgenetically documenting problem solving as a function of
+experience revealed that attention is taxed during mastery of a motor skill. Availability of attentional
+resources, in turn, impacted
 
-By using Nanit video baby monitors and parent reported motor skill diaries, we get a prospective glimpse into infants' sleep around the acquisition of new motor skills.  
+```{r, echo=FALSE}
 
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/Horger%20&%20Berger%20(2019)%20The%20role%20of%20walking%20experience%20on%20whole%20body%20exploration%20and%20problem%20solving.pdf",
+  button_label = "Download pdf file",
+  button_type = "warning",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+#
+#
+#
 
-```{r isdp20, echo=FALSE,  out.width = '60%', out.extra='style="float:right; padding:10px"'}
+#### *Nap timing makes a difference: Sleeping sooner rather than later after learning improves infants’ locomotor problem solving*
+
+Twenty-nine newly-walking infants who had recently given up crawling trained to navigate a
+shoulder-height, nylon tunnel to reach a caregiver waiting at the other end. Infants in the Nap
+First group napped within 30 min of initial training. Infants in the Delay First group napped four
+hours after training. All infants were retested six hours after training on the same locomotor
+problem. Learning was measured by the number of training prompts required to solve the task,
+exploration, and time to solve the problem. Nap First infants benefited the most from a nap; they
+required fewer training prompts, used fewer posture shifts from training to test, and solved the
+task faster compared to Delay First infants, suggesting that optimally timed sleep does not merely
+protect against interference, but actively contributes to memory consolidation. This study highlights
+the importance of nap timing as a design feature and was a first step towards limit-testing
+the boundaries of the relation between sleep and learning. Infants’ fragile memories require
+regular consolidation with intermittent periods of sleep to prevent interference or forgetting.
+
+```{r, echo=FALSE}
+
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/DeMasi%20et%20al%20(2021)%20Nap%20timing%20makes%20a%20difference.pdf",
+  button_label = "Download pdf file",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+#
+#
+#
+
+```{r isdp20, echo=FALSE,  out.width = '40%', out.extra='style="float:right; padding:10px"'}
 
 knitr::include_graphics("images/twitterposter.gif")
 ```
+
+#### *Longitudinal assessment of sleep and motor milestone acquisition.*
+
+By using Nanit video baby monitors and parent reported motor skill diaries, we get a prospective glimpse into infants' sleep around the acquisition of new motor skills.  
+
 
 In one investigation, Nanit provided nightly sleep summaries statistics including number of wake episodes, sleep efficiency, total sleep time, and sleep onset latency. We looked for patterns in the nights immediately before and after the acquisition of sitting, pulling to stand, hands-and-knees crawling, cruising, and walking. 
 
@@ -57,39 +152,24 @@ In a second study, complete nights of video were state scored into REM, NREM, in
 #
 #
 #
-
-**Parental Expectations and Infants' Sleep during COVID-19**
-
-  We are using a survey and still accepting responses!
-  https://gccuny.az1.qualtrics.com/jfe/form/SV_1Mknip2xlCEntjv 
-
-
- 
-
-**Supported vs Unsupported Sitters and Focused Attention**
-
-  Parents and their babies participate entirely on Zoom. We're interested in what we can learn about movement and cognition while your baby sits and plays with toys from your house. 
-
-
-**Novel Methodological Techniques for Coding Sleep States in Infancy**
-
-  I developed a technique using wireless cardiorespiratory sensors and an actigraph to code infant sleep states. The procedure is easy enough for parents to incorporate into their usual bedtime routines. Parents and babies become part of the research team! 
-
-
-```{r babysci, echo=FALSE,  out.width = '40%', fig.align = 'center'}
+```{r babysci, echo=FALSE,  out.width = '40%', out.extra='style="float:right; padding:10px"'}
 
 knitr::include_graphics("images/babysci.jpg")
 ```
 
 
+## Sleep in context 
+
+#### New in-home methods for studying sleep states in infancy 
+
+I developed a technique using wireless cardiorespiratory sensors and an actigraph to code infant sleep states. The procedure is easy enough for parents to incorporate into their usual bedtime routines. Parents and babies become part of the research team! 
 
 
+### Parental Expectations and Infants' Sleep during COVID-19
 
-## Completed research projects 
+  We are using a survey and still accepting responses!
+  https://gccuny.az1.qualtrics.com/jfe/form/SV_1Mknip2xlCEntjv 
 
-
-
-**The Relation Between Physical Space and Young Children’s Play: A Cross-Cultural Examination**
 
 
 ## Recent conference presentations
