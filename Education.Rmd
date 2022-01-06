@@ -12,15 +12,15 @@ output:
 
 
 
+#
+#
+#
 ```{r cuny, echo=FALSE,  out.width = '15%', out.extra='style="float:right; padding:10px"', fig.align = 'right'}
 
 knitr::include_graphics("imageS/cunylogo.png")
 
 ```
 
-#
-#
-#
 
 ### **2016-2021  Doctor of Philosophy, Department of Psychology**	
 ### **2016-2019	Masters of Philosophy, Department of Psychology**
