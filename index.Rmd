@@ -3,6 +3,14 @@ title: "A brief bio"
 output: html_document
 ---
 
+```{r  echo=FALSE}
+
+rsconnect::setAccountInfo(name='melissa-horger', token='4A5E16D1A626782C62D54FE84C6F9050', secret='7p13tsO3PgAwPBZ5EOJMf04jAWDSp0qEKQLP0xrL')
+
+```
+
+
+
 ```{r me, echo=FALSE,  out.width = '35%', out.extra='style="float:right; padding:10px"',  fig.align = 'center'}
 knitr::include_graphics('images/me.jpg')
 ```

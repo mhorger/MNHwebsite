@@ -12,7 +12,7 @@ output:
 #
 #
 
-## Motor experience and body representations 
+## **Motor experience and body representations**
 
 
 #### *The development of grasping and later neural representation of fingers* 
@@ -46,7 +46,7 @@ knitr::include_graphics("images/fig3.png")
 
 ```
 
-## Cognitive and motor development and sleep
+## **Cognitive and motor development and sleep**
 
 #### *Cognition-action tradeoffs and the organization of attention* 
 
@@ -198,7 +198,7 @@ In a second study, complete nights of video were state scored into REM, NREM, in
 #
 
 
-## Methods for studying sleep
+## **Methods for studying sleep**
 
 #### *Comparing researcher choices for sleep assessment* 
 
