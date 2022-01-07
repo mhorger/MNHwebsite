@@ -8,6 +8,8 @@ navbar:
       href: Education.html
     - text: "Research"
       href: Research.html
+    - text: "Popular Press"
+      href: PopPress.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:<mhorger714@gmail.com>
