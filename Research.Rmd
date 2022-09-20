@@ -28,6 +28,19 @@ A project through the Developmental Science Lab at Temple University is currentl
 
 For more information - https://sites.temple.edu/devscilab/babygrasp/ 
 
+Or download a copy of our recent presentation at the Internation Congress on Infant Studies
+
+```{r, echo=FALSE}
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/main/articles/Early%20grasping%20trajectories%20and%20later%20neural%20representations%20of%20infant%20finger_ICIS.pdf",
+  button_label = "Download pdf file",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+
 #
 #
 # 
