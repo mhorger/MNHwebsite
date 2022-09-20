@@ -176,7 +176,8 @@ downloadthis::download_link(
 #
 #
 #
-#### *Nap timing makes a difference: Sleeping sooner rather than later after learning improves infants’ locomotor problem solving*
+#### *The unique contributions of day and night sleep to infant motor problem solving* 
+
 The current study sought to tease apart the unique contributions of
 napping and nighttime sleep to infant learning, specifically in the
 context of motor problem solving. We challenged 54 walking
@@ -193,6 +194,17 @@ difficulty may shape the impact of sleep on learning. Thus, day
 sleep and night sleep make independent contributions to the consolidation
 of motor problem-solving strategies during infancy.
 
+```{r, echo=FALSE}
+
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/main/articles/Horger%20et%20al%20(2023)%20The%20unique%20contributions%20of%20day%20and%20night%20sleep%20to%20infant%20motor%20problem%20solving.pdf",
+  button_label = "Download pdf file",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
 #
 #
 #
@@ -253,7 +265,7 @@ measurement technique and how to capitalize on them.
 downloadthis::download_link(
   link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/DeMasi%20et%20al%20(2021)%20Nap%20timing%20makes%20a%20difference.pdf",
   button_label = "Download pdf file",
-  button_type = "default",
+  button_type = "danger",
   has_icon = TRUE,
   icon = "fa fa-save",
   self_contained = FALSE
@@ -292,9 +304,9 @@ incorporating sleep into their paradigms.
 ```{r, echo=FALSE}
 
 downloadthis::download_link(
-  link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/DeMasi%20et%20al%20(2021)%20Nap%20timing%20makes%20a%20difference.pdf",
+  link = "https://github.com/mhorger/MNHwebsite/blob/main/articles/Horger%20(2022)%20Novel%20and%20noninvasive%20methods%20for%20in%20home%20sleep%20measurement.pdf",
   button_label = "Download pdf file",
-  button_type = "default",
+  button_type = "warning",
   has_icon = TRUE,
   icon = "fa fa-save",
   self_contained = FALSE
