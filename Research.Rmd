@@ -176,6 +176,26 @@ downloadthis::download_link(
 #
 #
 #
+#### *Nap timing makes a difference: Sleeping sooner rather than later after learning improves infants’ locomotor problem solving*
+The current study sought to tease apart the unique contributions of
+napping and nighttime sleep to infant learning, specifically in the
+context of motor problem solving. We challenged 54 walking
+infants to solve a novel locomotor problem at three time points—
+training, test, and follow-up the next morning. One group of infants
+napped during the delay between training and test. Another group
+did not sleep during the delay. A third group received the test
+immediately after training with no delay. Only the Nap group’s
+strategy choices continued to improve through the follow-up session,
+suggesting that daytime sleep has an active role in strengthening
+otherwise fragile memory. Although group did not affect
+strategy maintenance, walk experience did, suggesting that task
+difficulty may shape the impact of sleep on learning. Thus, day
+sleep and night sleep make independent contributions to the consolidation
+of motor problem-solving strategies during infancy.
+
+#
+#
+#
 
 ```{r isdp20, echo=FALSE,  out.width = '40%', out.extra='style="float:right; padding:10px"'}
 
@@ -244,7 +264,42 @@ downloadthis::download_link(
 #
 #### *New in-home methods for studying sleep states in infancy* 
 
-I developed a technique using wireless cardiorespiratory sensors and an actigraph to code infant sleep states. The procedure is easy enough for parents to incorporate into their usual bedtime routines. Parents and babies become part of the research team! 
+Research studying the role of sleep in development abounds but focuses on global aspects of sleep
+like quality or timing. Far fewer studies include the ultradian cycle, or patterns of REM and non-
+REM (NREM), because doing so is costly in time and resources. In a complete, lab-based sleep
+study, individuals are monitored by a technician overnight while wearing a host of sensors to
+capture brain activity, eye and limb movement, and cardiorespiratory rates. There is a need for
+creative, minimally disruptive solutions to study sleep that do not compromise the richness and
+accuracy of the measurements. The current pilot study parsed down the physiological measures to
+only movement and cardiorespiratory rates, creating a protocol simple enough for caregivers to
+incorporate into bedtime. Ten 12-month-old infants (+/- 3 weeks) wore an actigraph and wireless
+cardiorespiratory sensor for five nights of data collection. Of this, 92% were useable data.
+Actigraphy was analyzed with the Sadeh algorithm to delineate sleep from wake. Heart rate and
+respiration were then used to state score visually or via an algorithm; greater variability
+demarcated REM from NREM. Time spent in each state was compared between scoring methods
+as well as to published results from age matched infants who underwent polysomnography (PSG).
+Visually scored data, using a 1-hour viewing window, was in line with peer’s PSG values. To
+automatically state score, epoch-by-epoch cardiorespiratory and actigraphy files were produced
+for each minute of data collection. Heart and respiratory rates were transformed into z-scores and
+iterations of scoring, using increasingly greater z score thresholds, were compared to determine
+which identified state proportions most similar to data collected with PSG. Based on these results,
+our novel method appears to be a feasible choice for studying the ultradian cycle. The combination
+of actigraphy and cardiorespiratory monitoring is uniquely advantageous because it is less
+resource intensive and more naturalistic, being put on by caregivers while still resulting in high
+rates of good data. Taken together, it is a quality option for infant researchers interested in
+incorporating sleep into their paradigms.
+
+```{r, echo=FALSE}
+
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/blob/b022659d6690c61afa8397b694a193b4516b2e7e/articles/DeMasi%20et%20al%20(2021)%20Nap%20timing%20makes%20a%20difference.pdf",
+  button_label = "Download pdf file",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
 
 ```{r babysci, echo=FALSE,  out.width = '30%', fig.align = 'center'}
 
