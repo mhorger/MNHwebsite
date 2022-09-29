@@ -6,11 +6,10 @@ navbar:
       href: index.html
     - text: "Education"
       href: Education.html
-   - text: "Research"
-      href: Research.html
     - text: "Popular Press"
       href: PopPress.html
-
+    - text: "Research"
+      href: Research.html
 
   right: 
     - icon: fa-envelope fa-lg
