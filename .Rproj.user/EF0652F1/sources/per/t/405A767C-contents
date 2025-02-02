@@ -1,0 +1,68 @@
+---
+title: "code repository"
+author: "MNH"
+date: '2022-10-04'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+
+```
+
+
+BASE R 
+
+
+
+DPLYR
+Filtering data by multiple parameters
+```{r}
+kinematicsLONG <- McDonnell_master %>%
+  filter(PropofScreenData == 1 & Propof2DVideos_6to13 > 0.75 & Numberof2DVideos_6to13 > 8 & StartingAge < 7  , na.rm = TRUE)
+```
+
+
+Count the instances of an occurrence 
+```{r}
+counters <- easyones %>%
+  group_by(color) %>%
+  count(artnum)
+```
+
+
+
+
+
+Breaking up a sequence of characters 
+built off the naming convention for the Marshall EEG data 
+```{r}
+
+data1=within(data1,{
+  sub = sapply(data1$file, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=1, stop=3)})
+  cond = sapply(data1$file, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=4, stop=6)})
+  rest = sapply(data1$file, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=4, stop=12)})
+  })
+
+```
+
+
+
+
+
+
+
+GGPLOT2
+
+
+
+
+
+
+
+
+
+
+

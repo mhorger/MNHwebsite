@@ -1,0 +1,146 @@
+---
+title: "Learning_R"
+author: "AB"
+date: "2022-09-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(tidyverse)
+```
+
+## Notes
+
+Command + Option I = New Code Chunk Link to file: <https://onedrive.live.com/view.aspx?resid=8B74D5853BB2241B!62684&ithint=file%2cdocx&authkey=!ADIHV7vX1Q9hm8A> Run - Rerun all code.
+
+Learning R \| Step A
+
+```{r}
+count <- c(1:10)
+```
+
+```{r}
+count2 <- c(count*2)
+```
+
+```{r}
+abc <- c("a","b","c","e","f")
+```
+
+```{r}
+abc2 <- c(abc,abc)
+
+df <- data.frame(count,count2,abc2)
+```
+
+```{r}
+productname<- c("Red Shirt","Blue Shirt","Green Shirt","Yellow Shirt","Pink Shirt")
+```
+
+
+```{r}
+sku<- c("RD01","BL01","GR01","YL01","PK01")
+```
+
+```{r}
+qty<- c("120","210","390","80","90")
+```
+
+```{r}
+active<- c("yes","yes","yes","yes","yes")
+```
+
+```{r}
+supplier<- c("SS","SS","Alpha","Alpha","Alpha")
+```
+
+```{r}
+
+pd <- data.frame(productname,sku,qty,active,supplier)
+```
+
+https://www.dropbox.com/s/hwoiqggdva6i2fd/562MR%20%7C%20Ugly%20Christmas%20Sweatshirts.xlsx?dl=0
+
+XWBMCM1409RDM
+XWB = Brand (3)
+MC = Style (2)
+M1409  = Art Number (Starts with Character, ends with number)
+RD = Color (2)
+M = Size (Range 1-2 S,M,L,XL,2X,3X,4X,5X)
+
+
+
+```{r}
+X562MR_Ugly_Christmas_Sweatshirts <- read_excel("~/Dropbox/562MR | Ugly Christmas Sweatshirts.xlsx")
+summary(X562MR_Ugly_Christmas_Sweatshirts)
+```
+
+
+```{r}
+data1 <- X562MR_Ugly_Christmas_Sweatshirts
+
+
+data1=within(data1,{
+  brand = sapply(data1$`Item - SKU`, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=1, stop=3)})
+  style = sapply(data1$`Item - SKU`, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=4, stop=5)})
+  rest = sapply(data1$`Item - SKU`, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=6, stop=20)})
+  restshort = sapply(data1$`Item - SKU`, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=5, stop=20)})
+    style1 = sapply(data1$`Item - SKU`, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=3, stop=4)})
+  })
+
+
+six <- subset(data1, nchar(rest) == 6)
+six=within(six,{
+   brand1 = sapply(six$`Item - SKU`, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]],  start=1, stop=2)})
+    size = sapply(six$restshort, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=6, stop=7)})
+  color = sapply(six$restshort, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=4, stop=5)})
+  artnum = sapply(six$restshort, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=1, stop=3)})
+  })
+
+seven <- subset(data1, nchar(rest) == 7)
+seven=within(seven,{
+  size = sapply(seven$rest, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=7, stop=7)})
+  color = sapply(seven$rest, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=5, stop=6)})
+  artnum = sapply(seven$rest, function(x) {substr(strsplit(as.character(x), split="\\.")[[1]][[1]], start=1, stop=4)})
+  })
+
+df <- rbind.data.frame(six, seven)
+
+```
+                               
+
+```{r}
+table(seven$artnum)
+table(seven$color)
+```
+
+
+
+```{r}
+counters <- seven %>%
+  group_by(brand) %>%
+  count(artnum)
+```
+
+
+
+
+
+
+
+```{r}
+shortbrandUG <- data1 %>%
+  filter(str_detect(data1$`Item - SKU`, "UG"))
+
+shortbrandSH <- data1 %>%
+  filter(str_detect(data1$`Item - SKU`, "SH"))
+
+shortbrandwxbmc <- data1 %>%
+  filter(str_detect(data1$`Item - SKU`, "XWBMC"))
+
+shortbrand <- rbind(shortbrandUG, shortbrandSH)
+```
+
+
