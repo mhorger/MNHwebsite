@@ -28,7 +28,7 @@ A project through the Developmental Science Lab at Temple University is currentl
 
 For more information - https://sites.temple.edu/devscilab/babygrasp/ 
 
-Or download a copy of our recent presentation at the Internation Congress on Infant Studies
+Or download a copy of our recent presentation at the International Congress on Infant Studies
 
 ```{r, echo=FALSE}
 downloadthis::download_link(

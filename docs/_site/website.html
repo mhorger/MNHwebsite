@@ -9,12 +9,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="MNH" />
 
 
-<title>A brief bio</title>
+<title>website</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -62,7 +62,6 @@ if (window.hljs) {
 
 
 
-
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,9 +82,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -143,15 +139,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -180,8 +172,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,9 +181,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -245,21 +244,12 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="./index.html">Home</a>
-</li>
-<li>
-  <a href="././Education.html">Education</a>
-</li>
-<li>
-  <a href="PopPress.html">Popular Press</a>
-</li>
-<li>
-  <a href="./Research.html">Research</a>
+  <a href="index.html">Home</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:&lt;melissahorger@gmail.com&gt;">
+  <a href="mailto:&lt;mhorger714@gmail.com&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -267,6 +257,12 @@ $(document).ready(function () {
 <li>
   <a href="http://github.com/&lt;mhorger&gt;/">
     <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/MNHorger">
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -279,106 +275,31 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">A brief bio</h1>
+<h1 class="title toc-ignore">website</h1>
+<h4 class="author">MNH</h4>
+<h4 class="date">1/6/2022</h4>
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#section" id="toc-section"></a></li>
-<li><a href="#section-1" id="toc-section-1"></a></li>
-<li><a href="#section-2" id="toc-section-2"></a></li>
-<li><a href="#section-3" id="toc-section-3"></a></li>
-<li><a href="#section-4" id="toc-section-4"></a></li>
-<li><a href="#section-5" id="toc-section-5"></a></li>
-<li><a href="#section-6" id="toc-section-6"></a></li>
-<li><a href="#section-7" id="toc-section-7"></a></li>
-<li><a href="#section-8" id="toc-section-8"></a></li>
-<li><a href="#section-9" id="toc-section-9"></a></li>
-<li><a href="#section-10" id="toc-section-10"></a></li>
-<li><a href="#section-11" id="toc-section-11"></a></li>
-<li><a href="#section-12" id="toc-section-12"></a></li>
-</ul>
-</div>
 
-<p><img src="images/me.jpg" width="35%" style="float:right; padding:10px" style="display: block; margin: auto;" /></p>
-<div id="section" class="section level1">
-<h1></h1>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
 </div>
-<div id="section-1" class="section level1">
-<h1></h1>
-</div>
-<div id="section-2" class="section level1">
-<h1></h1>
-<div
-id="dr.-melissa-horger-is-currently-a-postdoctoral-reserach-in-the-somneuro-lab-at-umass-amherst.-she-studies-sleep-and-memory-consolidation-in-infants-and-preschoolers.-in-her-previous-appointment-at-temple-university-she-worked-in-the-developmental-science-lab-under-the-advisement-of-dr.-peter-marshall.-she-completed-her-doctoral-degree-at-the-graduate-center-in-september-2021."
-class="section level4">
-<h4>Dr. Melissa Horger is currently a postdoctoral reserach in the
-Somneuro Lab at UMass Amherst. She studies sleep and memory
-consolidation in infants and preschoolers. In her previous appointment
-at Temple University, she worked in the Developmental Science Lab under
-the advisement of Dr. Peter Marshall. She completed her doctoral degree
-at the Graduate Center in September 2021.</h4>
-</div>
-</div>
-<div id="section-3" class="section level1">
-<h1></h1>
-<div
-id="her-dissertation-was-an-interdisciplinary-investigation-of-infant-sleep-discussing-the-methodologies-of-the-field-and-linking-sleep-to-motor-development."
-class="section level4">
-<h4>Her dissertation was an interdisciplinary investigation of infant
-sleep, discussing the methodologies of the field and linking sleep to
-motor development.</h4>
-</div>
-</div>
-<div id="section-4" class="section level1">
-<h1></h1>
-<div
-id="before-graduate-school-dr.-horger-attended-millersville-university-and-then-spent-several-years-working-at-the-vista-school-in-hershey-pa."
-class="section level4">
-<h4>Before graduate school, Dr. Horger attended Millersville University
-and then spent several years working at the Vista School in Hershey,
-PA.</h4>
-</div>
-</div>
-<div id="section-5" class="section level1">
-<h1></h1>
-</div>
-<div id="section-6" class="section level1">
-<h1></h1>
-<div
-id="her-research-interests-include-sensory-motor-and-cognitive-development-and-the-role-of-sleep-in-these-domains."
-class="section level4">
-<h4>Her research interests include sensory, motor, and cognitive
-development and the role of sleep in these domains.</h4>
-</div>
-</div>
-<div id="section-7" class="section level1">
-<h1></h1>
-</div>
-<div id="section-8" class="section level1">
-<h1></h1>
-</div>
-<div id="section-9" class="section level1">
-<h1></h1>
-</div>
-<div id="section-10" class="section level1">
-<h1></h1>
-</div>
-<div id="section-11" class="section level1">
-<h1></h1>
-</div>
-<div id="section-12" class="section level1">
-<h1></h1>
-<div
-id="outside-of-the-lab-she-enjoys-going-to-concerts-traveling-hiking-and-spending-time-with-her-pets-harley-the-dog-and-pickles-the-cat."
-class="section level4">
-<h4>Outside of the lab, she enjoys going to concerts, traveling, hiking,
-and spending time with her pets, Harley (the dog) and Pickles (the
-cat).</h4>
-<p><img src="images/har.png" width="35%" style="display: block; margin: auto;" /></p>
-<p><img src="images/pic.png" width="45%" style="display: block; margin: auto;" /></p>
-</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="website_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
 

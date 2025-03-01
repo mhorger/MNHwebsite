@@ -17,10 +17,9 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/<mhorger>/
 output:
-  output_dir: "_doc"
   html_document:
     theme: cosmo
     toc: yes
     includes:
-      in_header: 
+    in_header: 
         - "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>"
