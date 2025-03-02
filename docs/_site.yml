@@ -5,9 +5,9 @@ navbar:
     - text: "Home"
       href: ./index.html
     - text: "Education"
-      href: ././Education.html
+      href: ./Education.html
     - text: "Popular Press"
-      href: PopPress.html
+      href: ./PopPress.html
     - text: "Research"
       href: ./Research.html
 
