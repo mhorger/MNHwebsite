@@ -32,7 +32,7 @@ knitr::include_graphics('images/me.jpg')
 #
 #
 
-#### Her research interests include sensory, motor, and cognitive development and the role of sleep in these domains. 
+#### Her research interests include motor and cognitive development, sleep, and memory. 
 
 #
 #
