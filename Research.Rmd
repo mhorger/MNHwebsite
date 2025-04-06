@@ -3,10 +3,10 @@ title: "Research and publications"
 output:
   html_document:
     toc: false
-    toc_float: false
-    collapsed: true
+    toc_float: true
+    collapsed: false
     number_sections: false
-    toc_depth: 2
+    toc_depth: 1
     #code_folding: hide
 ---
 
@@ -78,18 +78,6 @@ In a study leveraging citizen science and computer vision technology, we studied
 Download a copy of our presentation on the project at the International Congress on Infant Studies
 
 ```{r, echo=FALSE}
-
-HTML('
-<a href="https://github.com/mhorger/MNHwebsite/raw/main/articles/Early%20grasping%20trajectories%20and%20later%20neural%20representations%20of%20infant%20finger_ICIS.pdf" 
-   target="_blank" 
-   class="btn btn-warning" 
-   role="button">
-  <i class="fa fa-save"></i> Download PDF
-</a>
-')
-
-
-
 
 downloadthis::download_link(
   link = "https://github.com/mhorger/MNHwebsite/raw/main/articles/Early%20grasping%20trajectories%20and%20later%20neural%20representations%20of%20infant%20finger_ICIS.pdf",

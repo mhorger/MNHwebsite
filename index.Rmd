@@ -3,10 +3,10 @@ title: "A brief bio"
 output:
   html_document:
     toc: false
-    toc_float: false
-    collapsed: true
+    toc_float: true
+    collapsed: false
     number_sections: false
-    toc_depth: 2
+    toc_depth: 1
     #code_folding: hide
 ---
 
