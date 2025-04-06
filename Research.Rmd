@@ -75,11 +75,22 @@ knitr::include_graphics("images/bbeeg.png")
 In a study leveraging citizen science and computer vision technology, we studied how infants' reach-to-grasp strategies evolved 6 to 14-months. We use a customized software (TrHandy, Ab.Acus and HaMeR) to code videos submitted by parents and extract the kinematic properties of the reach and grasp. Of particular interest was the emergence of the mature pincer grasp. At 14-months, infants came to the lab and participated in a tactile oddball paradigm stimulating their fingertips while undergoing EEG. We focues on a neural signature (somatosensory mismatch negativity - sMMN) in the frontocentral regions to provide insight into the development of the somatosensory cortex. We hypothesized that functional differences in the way infants used their pinky and middle fingers to grasp would relate to neural body representations, manifesting as greater sMMN in response to a tactile stimulation of the middle finger versus the pinky finger. 
 
 
-For more information - https://sites.temple.edu/devscilab/babygrasp/ 
-
-Or download a copy of our recent presentation at the International Congress on Infant Studies
+Download a copy of our presentation on the project at the International Congress on Infant Studies
 
 ```{r, echo=FALSE}
+
+HTML('
+<a href="https://github.com/mhorger/MNHwebsite/raw/main/articles/Early%20grasping%20trajectories%20and%20later%20neural%20representations%20of%20infant%20finger_ICIS.pdf" 
+   target="_blank" 
+   class="btn btn-warning" 
+   role="button">
+  <i class="fa fa-save"></i> Download PDF
+</a>
+')
+
+
+
+
 downloadthis::download_link(
   link = "https://github.com/mhorger/MNHwebsite/raw/main/articles/Early%20grasping%20trajectories%20and%20later%20neural%20representations%20of%20infant%20finger_ICIS.pdf",
   button_label = "Download pdf file",
