@@ -58,7 +58,16 @@ downloadthis::download_link(
 )
 ```
 
-
+```{r, echo=FALSE}
+downloadthis::download_link(
+  link = "https://github.com/mhorger/MNHwebsite/raw/main/docs/resume_cv/Horger_Resume.pdf",
+  button_label = "Resume",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-link",
+  self_contained = FALSE
+)
+```
 
 ```{r har, echo=FALSE,  out.width = '35%', fig.align='center'}
 #### Outside of the lab, she enjoys going to concerts, traveling, hiking, and spending time with her pets, Harley (the dog) and Pickles (the cat). 
