@@ -48,15 +48,29 @@ knitr::include_graphics('images/headshot_scotland.jpg')
 #
 #
 ```{r, echo=FALSE}
+# downloadthis::download_link(
+#   link = "https://github.com/mhorger/MNHwebsite/raw/main/docs/resume_cv/MHorger_CV.pdf",
+#   button_label = "CV",
+#   button_type = "default",
+#   has_icon = TRUE,
+#   icon = "fa fa-link",
+#   self_contained = FALSE
+# )
+```
+
+```{r, echo = FALSE}
 downloadthis::download_link(
-  link = "https://github.com/mhorger/MNHwebsite/raw/main/docs/resume_cv/MHorger_CV.pdf",
+  link = "https://mhorger.github.io/MNHwebsite/resume_cv/MHorger_CV.pdf",
   button_label = "CV",
   button_type = "default",
   has_icon = TRUE,
-  icon = "fa fa-link",
+  icon = "fa fa-download",
   self_contained = FALSE
 )
+
 ```
+
+
 
 ```{r, echo=FALSE}
 downloadthis::download_link(

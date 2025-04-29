@@ -46,7 +46,8 @@ knitr::include_graphics("imageS/MUseal.png")
 
 #### Honors College, Summa Cum Laude
 
-#### Major: Psychology          Minor: Anthropology 
+#### Major: Psychology          
+#### Minor: Anthropology 
 
 #### Thesis Title: The allocation of preferred and non-preferred rewards among collaborating children
 
